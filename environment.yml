@@ -1,0 +1,8 @@
+name: DSWP # Data science with Python
+channels:
+  - base
+  - conda-forge
+dependencies:
+  - pyarrow # will be a required dependancy in pandas 3.0
+  - pandas
+  - numpy
